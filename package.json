@@ -1,0 +1,33 @@
+{
+  "name": "playwright_test_core",
+  "version": "0.0.1",
+  "description": "Core technical framework for playwright with Typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdul-shaikh-globant/playwright_test_core.git"
+  },
+  "keywords": [
+    "core_framework"
+  ],
+  "author": "Abdul Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdul-shaikh-globant/playwright_test_core/issues"
+  },
+  "homepage": "https://github.com/abdul-shaikh-globant/playwright_test_core#readme",
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "playwright": "^1.54.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
